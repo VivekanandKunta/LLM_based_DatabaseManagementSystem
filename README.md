@@ -34,4 +34,4 @@ An intelligent, interactive database interface powered by LLMs (Large Language M
 1. **Clone the repository**
    ```bash
    git clone https://github.com/VivekanandKunta/LLM_based_DatabaseManagementSystem.git
-   cd ai-dbms
+   cd LLM_based_DatabaseManagementSystem
