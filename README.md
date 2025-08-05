@@ -1,37 +1,36 @@
-# LLM_based_DatabaseManagementSystem
-This is the college DBMS lab assignment related to analyze a given dataset and find meaningful and useful insights in it and use a dashboard to display the results 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# 🧠 AI-Powered DBMS Management System
+## Getting Started
 
-An intelligent, interactive database interface powered by LLMs (Large Language Models). Users can enter natural language queries, which are converted into SQL and executed on connected databases like PostgreSQL or MySQL. Results are displayed in a clean UI, with optional charting support.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🚀 Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- 🔍 **Natural Language to SQL**: Ask your queries in plain English.
-- 📊 **Visual Output**: Tabular and chart-based display of query results.
-- 💾 **Multi-DB Support**: Works with PostgreSQL and MySQL.
-- 🧠 **Powered by OpenAI or Google LLMs**: Uses APIs like GPT-4 or Gemini for SQL generation.
-- 🌐 **Web Interface**: Single-page UI built with React/Next.js + Tailwind CSS.
-- 🔐 **Secure Credentials**: User-defined DB connection panel on the sidebar.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🛠️ Tech Stack
+## Learn More
 
-- **Frontend**: React / Next.js, Tailwind CSS
-- **Backend**: Python (FastAPI) or Node.js (Express)
-- **LLM API**: OpenAI GPT-4 / Google Gemini (default)
-- **Optional NLP Models**: Hugging Face Transformers
-- **Database**: PostgreSQL, MySQL
-- **Charting**: Chart.js or Plotly
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📦 Installation
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/VivekanandKunta/LLM_based_DatabaseManagementSystem.git
-   cd LLM_based_DatabaseManagementSystem
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
